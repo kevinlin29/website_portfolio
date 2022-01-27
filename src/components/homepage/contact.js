@@ -51,8 +51,8 @@ export const ContactUs = () => {
                         <Heading>Contact Me</Heading>
 
                         <form id={"formf"} ref={form} onSubmit={sendEmail}>
-                            <Input type="text" name="user_name" placeholder={"Name"}/>
-                            <Input  type="email" name="user_email" placeholder={"Email"}/>
+                            <Input type="text" name="from_name" placeholder={"Name"}/>
+                            <Input  type="email" name="from_email" placeholder={"Email"}/>
                             <Input1  name="message" placeholder={"Message"} />
                             <BtnWrap>
                                 <Button type='submit' value='Send' onClick={sendEmail} >Send</Button>
