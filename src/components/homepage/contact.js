@@ -31,7 +31,7 @@ export const ContactUs = () => {
         emailjs.sendForm(
             'service_u67dg4d',
             'template_xop1ejd',
-            form.current,
+            'contact',
             'user_922dBCSajQnmLI3vKaq2f')
             .then((result) => {
                 console.log(result.text);
